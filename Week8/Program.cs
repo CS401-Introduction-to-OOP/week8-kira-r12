@@ -10,3 +10,8 @@ parcel1.PrintInfo();
 CargoContainer<DeliveryItem> myCargo = new CargoContainer<DeliveryItem>();
 
 
+myCargo.AddItem(letter1);
+myCargo.AddItem(letter2);
+myCargo.AddItem(parcel1);
+myCargo.AddItem(parcel2);
+Console.WriteLine($"Загальна вартість доставки: {myCargo.GetTotalCost()}");
