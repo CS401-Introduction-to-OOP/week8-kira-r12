@@ -7,4 +7,5 @@ public class Letter: DeliveryItem
     {
         return 15 + (Weight * 10);
     }
+
 }
